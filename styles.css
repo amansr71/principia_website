@@ -211,5 +211,10 @@ contact-boxes {
 }
 
 .join-button:hover {
-    color: ;
+    color: rgb(237, 197, 135);
+}
+
+.footer-content {
+    text-align: center;
+
 }
