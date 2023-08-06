@@ -102,7 +102,7 @@ body {
 .second-banner-img {
     max-width: 60%;
     align-self: center;
-    height: fit-content;
+    height: auto;
     border-radius: 2em;
     margin-right: 2em;
     margin-left: 3em;
