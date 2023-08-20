@@ -229,6 +229,7 @@ contact-boxes {
 @media (max-width: 769px) {
     .pic-text-side-by-side {
         display: flex;
+        flex-direction: column;
 
     }
 }
