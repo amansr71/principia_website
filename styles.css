@@ -219,12 +219,6 @@ contact-boxes {
 
 }
 
-@media (max-width: 768px) {
-    body {
-        font-family: "Tahoma", sans-serif;
-    }
-}
-
 /* For desktop/laptop devices */
 @media (max-width: 769px) {
     .pic-text-side-by-side {
