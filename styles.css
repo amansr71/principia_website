@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(240, 244, 255);
-    font-family: tahoma;
+    font-family: "Clarkson", Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -55,8 +55,8 @@ body {
 
 .welcome_banner img {
     width: 100%;
-    border-radius: 0.625em;
-    margin-bottom: 0%;
+    border-radius: 0.2em;
+    margin-bottom: -0.45em;
 }
 
 
@@ -69,6 +69,7 @@ body {
 }
 
 .home-page-first-heading {
+
     font-size: 3.5em;
     background-color: rgb(51, 54, 97);
     color: rgb(236, 176, 124);
@@ -83,7 +84,6 @@ body {
 .pic-text-side-by-side {
     display: flex;
     flex-direction: column;
-
 }
 
 .home-page-club-intro {
@@ -217,4 +217,18 @@ contact-boxes {
 .footer-content {
     text-align: center;
 
+}
+
+@media (max-width: 768px) {
+    body {
+        font-family: "Tahoma", sans-serif;
+    }
+}
+
+/* For desktop/laptop devices */
+@media (max-width: 769px) {
+    .pic-text-side-by-side {
+        display: flex;
+
+    }
 }
