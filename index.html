@@ -5,12 +5,13 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/png" href="logo.png"/>
 </head>
-<body>
+<body onload="setTimeout('redirect()', 300)">
     <div class="navbar"> 
         <ul> 
             <li class="right"> <a class="logo" href="index.html"><img class="logo" src="logo.png" alt="Logo"></a></li> 
             <li class="right"> <a href="https://issuu.com/principia-magazine?fbclid=IwAR2lEtDATMVqsEd8s8syA_lHuLpH9YT1PXj_kwFvPYrJQlYfw1rhDeB1Q6c">Publications</a> </li>
-            <li class="right"> <a href="https://docs.google.com/forms/d/1mEqAIiAW8DP-HoixBizZAyvBpMo1VMtr8pPXMVILMcM/viewform?edit_requested=true">Join</a></li> 
+            <li class="right"> <a href="about.html">About Us</a></li>
+            <li class="right"> <a href="team.html">Our Team</a></li> 
             <li class="right"> <a href="contact.html">Contact</a></li>
             <li> <a class="instagram-logo" href="https://www.instagram.com/ihsprincipia/?hl=en"><img class="instagram-logo" src="instagram-logo.png" alt="instagram"></a></li>  
         </ul> 
@@ -25,26 +26,48 @@
             <p class="home-page-first-heading">Irvington High School's Principia Club</p>
         </div>
         
-        <div class="pic-text-side-by-side">  
-            <img class="second-banner-img" src="principia-theme.png" alt="Banner Image">
-            <p class="home-page-club-intro">
-            Combining multiple disciplines
-             and branches of knowledge, including STEM and the humanities, into a 
-             full compiled magazine. Forming a connection of ideas between students! 
-            </p>
+
+        <div >
+            <ul class="article-slideshow">
+
+                <img class="individual-article" src ="article-thumbnail-1.png" onclick="redirectToArticle1()"  >
+        
+                <img class="individual-article" src ="article-thumbnail-2.png" onclick="redirectToArticle2()"  >
+            </ul>
+           
+
+
         </div>
         <div>
-            <button class="join-button" onclick="redirectToForm()">Join the Club!</button>
+            <button class="join-button" onclick="redirectToForm()">Join</button>
         </div>
+
     </main>
+
     
     <footer>
         <p class="footer-content">copyright @2023IHS-Principia</p>
     </footer>
     <script>
         function redirectToForm() {
-            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScA_cwJQ9zPl14s9U--mOcT6nbfI78hTjdoFKgtVoeZClFzlQ/viewform?fbclid=IwAR1qMk_CJ5VjU8-u5-8iT7277TdAFXose52M5Q9d2uTLc7j3GeZG6itbpPk';
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScA_cwJQ9zPl14s9U--mOcT6nbfI78hTjdoFKgtVoeZClFzlQ/viewform';
         }
     </script>
+    <script>
+        function redirectToArticle1() {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScA_cwJQ9zPl14s9U--mOcT6nbfI78hTjdoFKgtVoeZClFzlQ/viewform';
+        }
+    </script>
+    <script>
+        function redirectToArticle2() {
+            window.location.href = 'https://issuu.com/principia-magazine/docs/principia_issue_2_evolution';
+        }
+    </script>
+    
+   
+    </script>
+    
+    
+     
 </body>
 </html>
