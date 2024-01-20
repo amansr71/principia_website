@@ -1,49 +1,131 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>About Us</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" type="image/png" href="logo.png"/>
-</head>
-<body onload="setTimeout('redirect()', 300)">
-    <div class="navbar"> 
-        <ul> 
-            <li class="right"> <a class="logo" href="index.html"><img class="logo" src="logo.png" alt="Logo"></a></li> 
-            <li class="right"> <a href="https://issuu.com/principia-magazine?fbclid=IwAR2lEtDATMVqsEd8s8syA_lHuLpH9YT1PXj_kwFvPYrJQlYfw1rhDeB1Q6c">Publications</a> </li>
-            <li class="right"> <a href="about.html">About Us</a></li>
-            <li class="right"> <a href="team.html">Our Team</a></li> 
-            <li class="right"> <a href="contact.html">Contact</a></li>
-            <li> <a class="instagram-logo" href="https://www.instagram.com/ihsprincipia/?hl=en"><img class="instagram-logo" src="instagram-logo.png" alt="instagram"></a></li>  
-        </ul>
-    </div>
-    
-    <main>
+<html lang="en">
 
-        <div class="pic-text-side-by-side">  
-            <img class="second-banner-img" src="principia-theme.png" alt="Banner Image">
-            <p class="home-page-club-intro">
-            Combining multiple disciplines
-             and branches of knowledge, including STEM and the humanities, into a 
-             full compiled magazine. Providing students with opportunities to publish their writing, establishing networks and forming a connection of ideas between students! 
-            </p>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a ><img src="logo-2.png" class="logo" alt=""></a>
+
         <div>
-            <button class="join-button" onclick="redirectToForm()">Join Today!</button>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="magazine.html">Magazines</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://www.instagram.com/ihsprincipia/"><img class ="insta-logo" src="instagram-logo.png"></a></li>
+                
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+              
+            </ul>
+        </div>
+        <div id="mobile">
+
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+
+        <h2>Get To Know Us </h2>
+
+    </section>
+
+    <section id="about-head" class="section-p1">
+        <img src="about-us.png" alt="">
+        
+        <div>
+            <h2>Who Are We?</h2>
+            <p class="about-text">Principia is a student run-club foudned in Irvingotn High School, that combining multiple disciplines and branches of knowledge, including STEM and the humanities, into a full compiled magazine. Providing students with opportunities to publish their writing, establishing networks and forming a connection of ideas between students!</p>
+
+            <br><br>
+
+        </div>
+    </section>
+    <section id="product1"> <h2>Meet Our Team</h2></section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="staff/jason.jpg" alt="hi">
+            <h6>Jason-President</h6>
+        </div>
+        <div class="fe-box">
+            <img src="staff/lester.jpeg" alt="hi">
+            <h6>Lester - Director</h6>
+        </div>
+        
+        <div class="fe-box">
+            <img src="staff/ryan.jpg" alt="hi">
+            <h6>Aman</h6>
+        </div>
+        <div class="fe-box">
+            <img src="staff/ryan.jpg" alt="hi">
+            <h6>Aman</h6>
+        </div>
+        <div class="fe-box">
+            <img src="staff/ryan.jpg" alt="hi">
+            <h6>Aman</h6>
+        </div>
+        <div class="fe-box">
+            <img src="staff/ryan.jpg" alt="hi">
+            <h6>Aman</h6>
         </div>
     
-    <footer>
-        <p class="footer-content">copyright @2023IHS-Principia</p>
-    </footer>
-    <script>
-        function redirectToForm() {
-            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScA_cwJQ9zPl14s9U--mOcT6nbfI78hTjdoFKgtVoeZClFzlQ/viewform';
-        }
-    </script>
-    
-   
-    </script>
-    
-    
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our <span>new magazines.</span> </p>
+        </div>
+        <div class="form">
+         
+        <form action="https://formsubmit.co/aman.sribrahma@gmail.com" method="POST">
+           
+            <input type="email" name="email" required>
+            <button class = "normal" type="submit">Send</button>
+       </form>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo-2.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Room 95, 41800 Blacow Rd, Fremont, CA 94538 </p>
+            <p><strong>Instagram:</strong> @Ihsprincipia </p>
+            <p><strong>Email:</strong> Irvingotnprincipia@gmail.com  </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href = "https://www.facebook.com/groups/ihsprincipia/" class="fab fa-facebook-f"></a>
+
+                    <a href="https://www.instagram.com/ihsprincipia/" class="fab fa-instagram"></a>
+                   
+                </div>
+            </div>
+        </div>
+
      
+
+        <div class="copyright">
+            <p>© 2024 Irvington Principia</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>

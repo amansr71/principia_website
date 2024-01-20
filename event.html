@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IHS Principia</title>
+    <title>Events and Meetings</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
     <link rel="stylesheet" href="style.css">
@@ -18,9 +18,9 @@
 
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a  href="index.html">Home</a></li>
                 <li><a href="magazine.html">Magazines</a></li>
-                <li><a href="event.html">Events</a></li>
+                <li><a  class="active" href="event.html">Events</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="https://www.instagram.com/ihsprincipia/"><img class ="insta-logo" src="instagram-logo.png"></a></li>
@@ -35,20 +35,16 @@
         </div>
     </section>
 
-    <section id="hero">
-        <h4>IHS Principia</h4>
-        <h2>Evolution</h2>
-        <h1>Out now!</h1>
-        <p>Published on 22 Sep XYZ</p>
-        <button onclick="redirectToMag2()">Read Here</button>
+    <section id="page-header" class="blog-header">
+
+        <h2>Events and Meetings</h2>
+
+        <p>All events and meetings in one place </p>
+     
+
     </section>
-    
 
-    
-
-    <section id="product1" class="section-p1">
-        <h2>Latest Events</h2>
-        <section id="blog">
+    <section id="blog">
         <div class="blog-box">
             <div class="blog-img">
                 <img src="night-market.jpeg" alt="">
@@ -56,20 +52,50 @@
             <div class="blog-details">
                 <h2>Night Market!</h4>
                 <p>Come meet Principia at booth ## on Thursday(xy/z) during Irvington's nightmarket and buy yourself some cookies</p>
-                <a href="event.html">SEE MORE</a>
+               
+            </div>
+            <h1>13/01/24</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="gm-post1.png" alt="">
+            </div>
+            <div class="blog-details">
+                <h2>General Meeting!</h4>
+                <p>Hi Vikings! Join us this Friday during lunch in room 95 to discuss about our articles!</p>
+                
+            </div>
+            <h1>10/20/23</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="gm-3.png" alt="">
+            </div>
+            <div class="blog-details">
+                <h2>General Meeting!</h4>
+                <p>Hi vikings! On Friday we'll be hosting a general meeting @ room 95 (Mr. Nguyen's Room), see you there!!</p>
+               
+            </div>
+            <h1>09/08/23</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="im.png" alt="">
+            </div>
+            <div class="blog-details">
+                <h2>Intro Meeting!</h4>
+                <p>This Friday we'll be hosting our intro meeting @ Norse Hall! (Room 104) We'll be discussing about our club and additional related information. Make sure to use this link to join our club to have lots of fun this year :)). See you there!</p>
+                
             </div>
             <h1>13/01/24</h1>
         </div>
     </section>
-            
 
-
-    <section id="banner" class="section-m1">
-   
-        <h2>Wanna Publish <span>Your</span> work?</h2>
-        <button onclick="redirectTojoin" class="normal">Join now</button>
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
     </section>
-
 
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
@@ -112,17 +138,8 @@
     </footer>
 
 
+
     <script src="script.js"></script>
-    <script>
-        function redirectToMag2() {
-            window.location.href = 'https://issuu.com/principia-magazine/docs/principia_issue_2_evolution';
-        }
-    </script>
-    <script>
-        function redirectTojoin() {
-            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScA_cwJQ9zPl14s9U--mOcT6nbfI78hTjdoFKgtVoeZClFzlQ/viewform';
-        }
-    </script>
 </body>
 
 </html>
